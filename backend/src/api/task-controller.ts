@@ -18,3 +18,17 @@ async function initPool() {
         connectionLimit:+process.env.connection_limit!
     });
 }
+type Task = {
+    id:number,
+    description:string,
+    status: 'COMPLETED' | 'NOT_COMPLETED'| undefined
+}
+
+
+router.get("/",async (req,res) => {
+    console.log("get")
+    const tasks = await pool.query("SELECT * FROM task");
+    console.log(tasks)
+    res.json(tasks);
+});
+
