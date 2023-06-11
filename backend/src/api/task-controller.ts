@@ -26,14 +26,11 @@ type Task = {
 
 
 router.get("/",async (req,res) => {
-    console.log("get")
     const tasks = await pool.query("SELECT * FROM task");
-    console.log(tasks)
     res.json(tasks);
 });
 
 router.post("/",async (req,res) => {
-    console.log("post")
     const task = req.body as Task;
     if (!task.description?.trim()) {
         res.sendStatus(400);
@@ -54,7 +51,6 @@ router.delete("/:taskId", async (req,res) => {
 });
 
 router.patch("/:taskId",async (req,res) => {
-    console.log("patch")
     const task = (req.body as Task);
     task.id = +req.params.taskId;
     if (!task.status){
