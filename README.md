@@ -1,12 +1,12 @@
 # To-Do Application
 
----
+
 
 ## Welcome to my Simple Task Application!
 
 I created this project during my training as a FullStack Developer to gain hands-on experience with front-end and back-end technologies. The application is a simple task manager that allows users to add new tasks, mark tasks as complete, and delete tasks. It has been designed to be user-friendly and responsive, ensuring a seamless experience across different devices.
 
----
+
 
 ## Features
 
@@ -14,7 +14,7 @@ I created this project during my training as a FullStack Developer to gain hands
 - Mark tasks as complete
 - Delete tasks
 
----
+
 
 ## Technologies Used
 
@@ -28,7 +28,7 @@ I created this project during my training as a FullStack Developer to gain hands
   - MySQL
   - TypeScript
 
----
+
 
 ## Getting Started
 
@@ -63,7 +63,7 @@ I created this project during my training as a FullStack Developer to gain hands
 
 5. Open your web browser and visit `http://localhost:8080` to access the application.
 
----
+
 
 ## Usage
 
@@ -72,7 +72,7 @@ I created this project during my training as a FullStack Developer to gain hands
 - To mark a task as complete, click the checkbox next to the task.
 - To delete a task, click the delete button next to the task.
 
----
+
 
 ## Contributing
 
@@ -87,7 +87,7 @@ If you have any questions, feedback, or would like to connect with me, please fe
 - Discord: https://discord.com/channels/Subhash#5290
 - Email: mailto:Udayanga.subash@gmail.com
 
----
+
 
 ## Follow Me
 
