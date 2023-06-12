@@ -1,7 +1,6 @@
 # To-Do Application
 
 
-
 ## Welcome to my Simple Task Application!
 
 I created this project during my training as a FullStack Developer to gain hands-on experience with front-end and back-end technologies. The application is a simple task manager that allows users to add new tasks, mark tasks as complete, and delete tasks. It has been designed to be user-friendly and responsive, ensuring a seamless experience across different devices.

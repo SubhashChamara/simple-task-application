@@ -1,0 +1,16 @@
+<div class="px-3 d-flex gap-2">
+  <input #txt class="form-control text-center" type="text" placeholder="Enter a new task">
+  <button class="btn btn-primary" (click)="saveTask(txt)">Add</button>
+</div>
+
+<ng-container *ngFor="let task of taskList">
+  <div class="px-3 py-2">
+    <div class="form-check d-flex justify-content-between">
+      <div>
+        <input [checked]="task.status === 'COMPLETED'"
+               id="task-{{task.id}}" class="form-check-input" type="checkbox">
+        <label id="task-{{task.id}}" class="form-check-label">{{task.description}}</label>
+      </div>
+    </div>
+  </div>
+</ng-container>
