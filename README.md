@@ -38,7 +38,7 @@ I created this project during my training as a FullStack Developer to gain hands
 1. Clone the repository:
 
    ```shell
-   git clone 
+   git clone https://github.com/SubhashChamara/simple-task-application.git
    ```
 
 2. Install the dependencies:
@@ -57,7 +57,11 @@ I created this project during my training as a FullStack Developer to gain hands
    npm start
    ```
 
-5. Open your web browser and visit `http://localhost:8080` to access the application.
+    ```shell
+   ng serve
+   ```
+
+5. Open your web browser and visit `http://localhost:4200` to access the application.
 
 
 ## Usage
