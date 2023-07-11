@@ -23,6 +23,7 @@ I created this project during my training as a FullStack Developer to gain hands
   - Express.js
   - MySQL
   - TypeScript
+  - Bootstrap
 
 
 ## Getting Started
