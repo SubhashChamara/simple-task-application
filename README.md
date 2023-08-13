@@ -93,4 +93,7 @@ Stay updated with my latest projects and connect with me on:
 - GitHub: https://github.com/SubhashChamara
 - LinkedIn: https://www.linkedin.com/in/subhash-chamara-udayanga-633578174/
 - Twitter: https://twitter.com/chamara_subhash?t=e7Qt_Z5c0eEg426tqdXxrQ&s=09
+  
+### License
+This application is licensed under this [license](License.txt)
 
